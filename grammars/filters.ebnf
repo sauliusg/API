@@ -28,16 +28,15 @@ OR = "OR" ;
 
 Expression = Term, [Spaces], [ OR, [Spaces], Expression ] ;
 
-Term = Comparison, [Spaces], [ AND, [Spaces], Term ] |
-       '(', [Spaces], Expression, [Spaces], ')'  |
-       NOT, [Spaces], Term
-       ;
+Term = Comparison, [Spaces], [ AND, [Spaces], Term ] ;
 
 (* OperatorComparison operator tokens: *)
 
 Operator = '<', [ '=' ] | '>', [ '=' ] | '=' | '!', '=' ;
 
-Comparison = Value, [Spaces], Operator, [Spaces], Value;
+Comparison = Value, [Spaces], Operator, [Spaces], Value |
+             NOT, [Spaces], Comparison |
+             '(', [Spaces], Expression, [Spaces], ')' ;
 
 (* Identifier syntax *)
 
