@@ -1,37 +1,37 @@
 Parse tree from /dev/fd/63:
-Number(2001)
-  Digits(2004)
-    Digit(2005)
-      TOKEN_6(1007): "3", line: 1, col: 1
-    Digit(2005)
-      TOKEN_7(1008): "4", line: 1, col: 2
-    Digit(2005)
-      TOKEN_8(1009): "5", line: 1, col: 3
-    Digit(2005)
-      TOKEN_9(1010): "6", line: 1, col: 4
+Number(9999)
+  Digits(9999)
+    Digit(9999)
+      TOKEN_6(9999): "3", line: 1, col: 1
+    Digit(9999)
+      TOKEN_7(9999): "4", line: 1, col: 2
+    Digit(9999)
+      TOKEN_8(9999): "5", line: 1, col: 3
+    Digit(9999)
+      TOKEN_9(9999): "6", line: 1, col: 4
 Parse tree from /dev/fd/63:
-Number(2001)
-  Sign(2003)
-    TOKEN_1(1002): "-", line: 1, col: 1
-  Digits(2004)
-    Digit(2005)
-      TOKEN_6(1007): "3", line: 1, col: 2
-    Digit(2005)
-      TOKEN_7(1008): "4", line: 1, col: 3
-    Digit(2005)
-      TOKEN_8(1009): "5", line: 1, col: 4
-    Digit(2005)
-      TOKEN_9(1010): "6", line: 1, col: 5
+Number(9999)
+  Sign(9999)
+    TOKEN_1(9999): "-", line: 1, col: 1
+  Digits(9999)
+    Digit(9999)
+      TOKEN_6(9999): "3", line: 1, col: 2
+    Digit(9999)
+      TOKEN_7(9999): "4", line: 1, col: 3
+    Digit(9999)
+      TOKEN_8(9999): "5", line: 1, col: 4
+    Digit(9999)
+      TOKEN_9(9999): "6", line: 1, col: 5
 Parse tree from /dev/fd/63:
-Number(2001)
-  Sign(2003)
-    TOKEN_0(1001): "+", line: 1, col: 1
-  Digits(2004)
-    Digit(2005)
-      TOKEN_6(1007): "3", line: 1, col: 2
-    Digit(2005)
-      TOKEN_7(1008): "4", line: 1, col: 3
-    Digit(2005)
-      TOKEN_8(1009): "5", line: 1, col: 4
-    Digit(2005)
-      TOKEN_9(1010): "6", line: 1, col: 5
+Number(9999)
+  Sign(9999)
+    TOKEN_0(9999): "+", line: 1, col: 1
+  Digits(9999)
+    Digit(9999)
+      TOKEN_6(9999): "3", line: 1, col: 2
+    Digit(9999)
+      TOKEN_7(9999): "4", line: 1, col: 3
+    Digit(9999)
+      TOKEN_8(9999): "5", line: 1, col: 4
+    Digit(9999)
+      TOKEN_9(9999): "6", line: 1, col: 5
