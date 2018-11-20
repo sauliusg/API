@@ -5,6 +5,12 @@
 
 BASENAME="$(basename $0)"
 
+#BEGIN DEPEND
+
+INPUT_GRAMMAR=generated/Number.ebnf
+
+#END DEPEND
+
 test -z "${TMP_DIR}" && TMP_DIR="."
 TMP_DIR="${TMP_DIR}/tmp-${BASENAME}-$$"
 mkdir "${TMP_DIR}"
@@ -17,7 +23,7 @@ trap "exit 1" HUP INT QUIT TERM
 
 TMP_GRAMMAR="${TMP_DIR}/numbers.g"
 
-./tools/grammatiker/EBNF/scripts/ebnf2grammatica grammars/numbers.ebnf \
+./tools/grammatiker/EBNF/scripts/ebnf2grammatica ${INPUT_GRAMMAR} \
     > ${TMP_GRAMMAR}
 
 while read LINE

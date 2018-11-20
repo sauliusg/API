@@ -1,4 +1,0 @@
-# This file contains an Extended Regular Expression to recognise
-# numbers as described in the Minimal API specification:
-
-[-+]?([0-9]+(\.[0-9]*)?|\.[0-9]+)([eE][-+]?[0-9]+)?

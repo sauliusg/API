@@ -1,4 +1,0 @@
-# This file contains a Perl-Compatible Regular Expression to recognise
-# numbers as described in the Minimal API specification:
-
-[-+]?(?:\d+(\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?
