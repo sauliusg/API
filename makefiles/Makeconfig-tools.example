@@ -9,4 +9,4 @@
 GRAMMATICA_VERSION = 1.6
 GRAMMATIKER_REV = 129
 
-TOOL_DIR = tests/tools
+TOOL_DIR = tools
